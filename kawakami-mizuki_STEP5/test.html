@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキスト表示・データテーブル</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 背景色変更ボタン -->
+    <button id="backgroundButton">背景色を変更</button>
+
+    <br><br>
+
+    <!-- テキスト入力欄 -->
+    <input type="text" id="textInput">
+
+    <!-- 表示ボタン -->
+    <button id="displayButton">表示</button>
+
+    <!-- 追加ボタン -->
+    <button id="addButton">追加</button>
+
+    <br><br>
+
+    <!-- 表示エリアの見出し -->
+    <h3>表示エリア</h3>
+
+    <!-- テキスト表示エリア -->
+    <div id="displayArea"></div>
+
+    <br>
+
+    <!-- 現在の行数 -->
+    <p id="rowCount">現在の行数: 0 件</p>
+
+    <!-- データテーブル -->
+    <table border="1">
+        <thead>
+            <tr>
+                <th>内容</th>
+                <th>操作</th>
+            </tr>
+        </thead>
+
+        <tbody id="tableBody">
+        </tbody>
+    </table>
+
+    <script src="style.js"></script>
+</body>
+</html>

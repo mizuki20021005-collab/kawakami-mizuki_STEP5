@@ -1,0 +1,57 @@
+/* ページ全体 */
+body {
+    background-color: white;
+    margin: 8px;
+    font-family: sans-serif;
+}
+
+/* ボタン */
+button {
+    font-size: 16px;
+    padding: 2px 6px;
+    cursor: pointer;
+}
+
+/* 入力欄 */
+input {
+    width: 205px;
+    height: 22px;
+    font-size: 16px;
+}
+
+/* テキスト表示エリア */
+#displayArea {
+    width: 470px;
+    min-height: 44px;
+    font-size: 30px;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+/* ハイライト */
+.highlight {
+    background-color: yellow;
+}
+
+/* 行数表示 */
+#rowCount {
+    font-size: 20px;
+}
+
+/* テーブル */
+table {
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+/* テーブルのセル */
+th, td {
+    padding: 3px;
+    text-align: left;
+}
+
+/* 削除ボタン */
+.deleteButton {
+    font-size: 16px;
+    cursor: pointer;
+}
